@@ -1,0 +1,28 @@
+{% include "base.html" %}
+
+{% block content %}
+	<div class="container">
+		<div class="header" style="text-align:center;"><h2>Add Blog Post</h2></div>
+		<div class="row">
+			<div class="img img-rounded col-lg-offset-2 col-lg-8" style="border:solid 1px;">
+				<form action="/add/" method="post">
+					<br>
+					<div class="form-group">
+						<label for="exampleInput">Title</label>
+						{{form.title}}
+					</div>
+					<div class="form-group">
+						<label for="exampleInputEmail1">Content</label>
+						{{form.body}}
+					</div>
+					<div class="form-group">
+						<label for="exampleInputEmail1">Category</label>
+						{{form.category}}
+					</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+					<br><br>
+				</form>
+			</div>
+		</div>
+	</div>
+{% endblock %}

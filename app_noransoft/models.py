@@ -6,7 +6,7 @@ class Category(models.Model):
 	category = models.CharField(max_length=200)
 
 	def __unicode__(self):
-		self.category
+		return unicode(self.category)
 
 
 class Blog(models.Model):
@@ -17,5 +17,5 @@ class Blog(models.Model):
 	category = models.ForeignKey(Category, null=True, blank=True)
 
 	def __unicode__(self):
-		self.title
+		return unicode(self.title)
 

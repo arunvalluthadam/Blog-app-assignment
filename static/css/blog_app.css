@@ -1,0 +1,28 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display|Lobster|Ubuntu+Condensed|Indie+Flower|Bree+Serif);
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #3EE3F9;
+	background-color: #080808;
+}
+
+.logo {
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+}
+
+h2 {
+	font-family: 'Indie Flower', cursive;
+}
+
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+}
+
+/*p {
+	font-family: 'Bree Serif', serif;
+}*/
